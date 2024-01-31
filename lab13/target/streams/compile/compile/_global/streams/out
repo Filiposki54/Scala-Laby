@@ -1,0 +1,39 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: C:\Users\filip\Desktop\kierczynski-filip\lab13\src\main\scala\Zad1.scala:51:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m  [33mval[0m [36mcastle1[0m = system.actorOf(Props[[35mCastle[0m]([31m"Castle1"[0m, [31m"Castle2"[0m), [31m"Castle1"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                               ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (clazz: Class[?], args: Any*): org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: org.apache.pekko.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (creator: => T)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    ([33mimplicit [0mevidence$2: reflect.ClassTag[T]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: org.apache.pekko.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  ()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    ([33mimplicit [0mevidence$1: reflect.ClassTag[T²]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (deploy: org.apache.pekko.actor.Deploy, clazz: Class[?], args: Seq[Any]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch type arguments [Castle] and arguments (([32m"Castle1"[0m : String), ([32m"Castle2"[0m : String))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mwhere:    T  is a type variable with constraint <: org.apache.pekko.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          T² is a type variable with constraint <: org.apache.pekko.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E134] Type Error: C:\Users\filip\Desktop\kierczynski-filip\lab13\src\main\scala\Zad1.scala:52:31 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m  [33mval[0m [36mcastle2[0m = system.actorOf(Props[[35mCastle[0m]([31m"Castle2"[0m, [31m"Castle1"[0m), [31m"Castle2"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                               ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mNone of the overloaded alternatives of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mProps[0m with types[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (clazz: Class[?], args: Any*): org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: org.apache.pekko.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  (creator: => T)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    ([33mimplicit [0mevidence$2: reflect.ClassTag[T]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m [T <: org.apache.pekko.actor.Actor][0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  ()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m    ([33mimplicit [0mevidence$1: reflect.ClassTag[T²]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m (deploy: org.apache.pekko.actor.Deploy, clazz: Class[?], args: Seq[Any]):[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  org.apache.pekko.actor.Props[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmatch type arguments [Castle] and arguments (([32m"Castle2"[0m : String), ([32m"Castle1"[0m : String))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mwhere:    T  is a type variable with constraint <: org.apache.pekko.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          T² is a type variable with constraint <: org.apache.pekko.actor.Actor[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
